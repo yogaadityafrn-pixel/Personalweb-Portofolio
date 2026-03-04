@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio website template">
+    <title>Yoga - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="image/yoga.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="scroll-progress"></div>
+    <div id="loading-screen"><div class="loading-spinner"></div></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo"></a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#Experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="#certificates" class="nav-link">Certificates</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="nav-item">
+                    <button id="theme-toggle" class="theme-btn" aria-label="Toggle Dark Mode">🌙</button>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <canvas id="hero-canvas"></canvas>
+        <div class="hero-container">
+            <div class="hero-content fade-in">
+                <h1 class="hero-title">Hi! I'm Yoga Aditya Fernanda</h1>
+                <p class="hero-subtitle">I'm a <span class="typing-text"></span><span class="cursor">|</span></p>
+                <p class="hero-description">Developing reliable and innovative technology solutions to create efficient and sustainable digital systems.</p>
+                <a href="#portfolio" class="cta-button">View Projects</a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator"><div class="scroll-arrow"></div></div>
+    </section>
+
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text fade-in delay-100">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="about-description">
+                    Undergraduate student in Information Systems and Technology at Universitas 17 Agustus 1945 Surabaya. I am dedicated to bridging the gap between conceptual ideas and technical reality through a structured approach. Possessing a keen eye for detail and strong analytical skills.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat fade-in delay-200"><span class="stat-number">1 +</span><span class="stat-label">Projects</span></div>
+                        <div class="stat fade-in delay-300"><span class="stat-number">3.0 +</span><span class="stat-label">GPA</span></div>
+                        <div class="stat fade-in delay-400"><span class="stat-number">2+</span><span class="stat-label">Years</span></div>
+                    </div>
+                </div>
+                <div class="about-image fade-in delay-300">
+                    <img src="image/yoga.jpeg" alt="Profile Picture" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tech-stack" class="tech-section">
+        <div class="tech-marquee-wrapper fade-in">
+            <div class="tech-track">
+                <div class="tech-circle"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"></div>
+                <div class="tech-circle"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS"></div>
+                <div class="tech-circle"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"></div>
+                <div class="tech-circle"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"></div>
+                <div class="tech-circle"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"></div>
+                <div class="tech-circle"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="NodeJS"></div>
+                <div class="tech-circle"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"></div>
+                <div class="tech-circle"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"></div>
+                <div class="tech-circle"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma"></div>
+                
+                <div class="tech-circle"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"></div>
+                <div class="tech-circle"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS"></div>
+                <div class="tech-circle"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"></div>
+                <div class="tech-circle"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"></div>
+                <div class="tech-circle"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"></div>
+                <div class="tech-circle"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="NodeJS"></div>
+                <div class="tech-circle"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"></div>
+                <div class="tech-circle"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"></div>
+                <div class="tech-circle"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Experience" class="skills section">
+        <h2 class="section-title fade-in">Experience</h2>
+        <div class="skills-grid container">
+            <a href="himasista.html" style="text-decoration: none; color: inherit;">
+                <div class="skill-card fade-in delay-100"> 
+                    <img src="image/himasista.jpg" alt="Himasista">
+                    <h3 class="skill-title">Himpunan Mahasiswa Sistem dan Teknologi Informasi</h3>
+                    <p class="skill-description">Head of Research and Technology Division</p>
+                </div>
+            </a>
+            
+            <a href="radnext.html" style="text-decoration: none; color: inherit;">
+                <div class="skill-card fade-in delay-100"> 
+                    <img src="image/radnext.jpg" alt="Radnext Digital Indonesia">
+                    <h3 class="skill-title">Radnext Digital Indonesia</h3>
+                    <p class="skill-description">IT Operations Internship</p>
+                </div>
+            </a>
+            
+            <a href="gdgocpens.html" style="text-decoration: none; color: inherit;">
+                <div class="skill-card fade-in delay-100"> 
+                    <img src="image/gdgoc.pens.jpg" alt="GDGOC PENS">
+                    <h3 class="skill-title">Google Developers Group on Campus</h3>
+                    <p class="skill-description">Member of Google Developers Group on Campus</p>
+                </div>
+            </a>
+            
+            <a href="kimiafarma.html" style="text-decoration: none; color: inherit;">
+                <div class="skill-card fade-in delay-100"> 
+                    <img src="image/kimia.farma.jpg" alt="Kimia Farma">
+                    <h3 class="skill-title">Kimia Farma</h3>
+                    <p class="skill-description">Project-Based Internship : Big Data Analytics Kimia Farma x Rakamin Academy</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio section">
+        <div class="container">
+            <h2 class="section-title fade-in">Featured Projects</h2>
+            <div class="portfolio-filters fade-in">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Full Stack</button>
+                <button class="filter-btn" data-filter="Data">Data</button>
+                <button class="filter-btn" data-filter="branding">UI/UX</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item fade-in delay-100" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="image/weatherapp.png" alt="weatherapp">
+                        <div class="portfolio-overlay">
+                            <a href="https://weather-app-orcin-eta-44.vercel.app/" class="portfolio-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Weather App</h3>
+                        <p class="portfolio-description">Aesthetic Weather App built with HTML, CSS, and JS.</p>
+                        <div class="portfolio-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div>
+                    </div>
+                </div>
+                <div class="portfolio-item fade-in delay-200" data-category="Data">
+                    <div class="portfolio-image">
+                        <img src="image/KFDASHBOARD.png" alt="Fitness Mobile App">
+                        <div class="portfolio-overlay">
+                            <a href="https://1drv.ms/p/c/5350263c09a591c2/IQBGAZxxbOKLQ5wWliMW_tBDAfKPqUPp8ySrYUNnxvV2oKI?e=Qs0SZC" class="portfolio-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Performance Analysis Kimia Farma</h3>
+                        <p class="portfolio-description">Evaluasi komprehensif terhadap kinerja bisnis berbasis data historis penjualan (2020–2023) untuk mengukur efektivitas strategi perusahaan yang telah berjalan.</p>
+                        <div class="portfolio-tags"><span class="tag">Big Data</span><span class="tag">Data Modeling</span></div>
+                    </div>
+                </div>
+                <div class="portfolio-item fade-in delay-300" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="image/PROJECT3.png" alt="Smart-Schedule-Matcher">
+                        <div class="portfolio-overlay">
+                            <a href="https://smart-schedule-matcher.vercel.app/" class="portfolio-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Smart-Schedule-Matcher</h3>
+                        <p class="portfolio-description">MeetSync Elite adalah aplikasi web berbasis client-side yang dirancang untuk menyelesaikan masalah klasik mahasiswa dan organisasi: Menentukan waktu rapat yang pas. Aplikasi ini memungkinkan banyak pengguna untuk membagikan jadwal sibuk mereka dan secara otomatis menemukan "irisan" waktu kosong di mana semua orang bisa hadir.</p>
+                        <div class="portfolio-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="testimonials section">
+        <div class="container">
+            <h2 class="section-title fade-in">Certificates & Awards</h2>
+            
+            <div class="slider-container fade-in delay-200" id="cert-slider">
+                <div class="slider-track">
+                    
+                    <div class="testimonial-card slider-item">
+                        <div class="testimonial-content" style="text-align: center;">
+                            <div style="margin-bottom: 15px; border-radius: 8px; overflow: hidden; border: 1px solid var(--border-col); height: 160px; pointer-events: none;">
+                                <img src="image/microsoft elevate.jpeg" alt="Dicoding" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 700;">Microsoft Elevate</h3>
+                            <a href="#" class="verify-btn">Verify Credential ↗</a>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card slider-item">
+                        <div class="testimonial-content" style="text-align: center;">
+                            <div style="margin-bottom: 15px; border-radius: 8px; overflow: hidden; border: 1px solid var(--border-col); height: 160px; pointer-events: none;">
+                                <img src="image/gdgoc1.jpg" alt="Google Cloud" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 700;">Google Developers Group </h3>
+                            <a href="#" class="verify-btn">Verify Credential ↗</a>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card slider-item">
+                        <div class="testimonial-content" style="text-align: center;">
+                            <div style="margin-bottom: 15px; border-radius: 8px; overflow: hidden; border: 1px solid var(--border-col); height: 160px; pointer-events: none;">
+                                <img src="image/gdgoc2.jpg" alt="Himasista" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 700;">Google Developers Group</h3>
+                            <a href="#" class="verify-btn">View Activity ↗</a>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card slider-item">
+                        <div class="testimonial-content" style="text-align: center;">
+                            <div style="margin-bottom: 15px; border-radius: 8px; overflow: hidden; border: 1px solid var(--border-col); height: 160px; pointer-events: none;">
+                                <img src="image/dicoding1.jpg" alt="Dicoding" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 700;">Dicoding Academy</h3>
+                            <a href="#" class="verify-btn">Verify Credential ↗</a>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card slider-item">
+                        <div class="testimonial-content" style="text-align: center;">
+                            <div style="margin-bottom: 15px; border-radius: 8px; overflow: hidden; border: 1px solid var(--border-col); height: 160px; pointer-events: none;">
+                                <img src="image/dicoding2.jpg" alt="Google Cloud" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 700;">Dicoding Academy</h3>
+                            <a href="#" class="verify-btn">Verify Credential ↗</a>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card slider-item">
+                        <div class="testimonial-content" style="text-align: center;">
+                            <div style="margin-bottom: 15px; border-radius: 8px; overflow: hidden; border: 1px solid var(--border-col); height: 160px; pointer-events: none;">
+                                <img src="image/revou.jpg" alt="Himasista" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 700;">Revou.ID</h3>
+                            <a href="#" class="verify-btn">View Activity ↗</a>
+                        </div>
+                    </div>
+
+                      <div class="testimonial-card slider-item">
+                        <div class="testimonial-content" style="text-align: center;">
+                            <div style="margin-bottom: 15px; border-radius: 8px; overflow: hidden; border: 1px solid var(--border-col); height: 160px; pointer-events: none;">
+                                <img src="image/cisco.jpg" alt="Himasista" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 700;">Cisco Networking Academy</h3>
+                            <a href="#" class="verify-btn">View Activity ↗</a>
+                        </div>
+                    </div>
+
+                     <div class="testimonial-card slider-item">
+                        <div class="testimonial-content" style="text-align: center;">
+                            <div style="margin-bottom: 15px; border-radius: 8px; overflow: hidden; border: 1px solid var(--border-col); height: 160px; pointer-events: none;">
+                                <img src="image/digitalent.png" alt="Himasista" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; font-weight: 700;">Digitalent Scholarship</h3>
+                            <a href="#" class="verify-btn">View Activity ↗</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <p style="text-align: center; color: var(--text-sec); font-size: 0.8rem; margin-top: 10px;">Drag to pause & slide manually</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info fade-in delay-100">
+                    <h2 class="section-title" style="text-align: left;">Let's Work Together</h2>
+                    <p class="contact-description">Ready to bring your ideas to life?</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:yogaadityafrn@gmail.com" class="contact-link">yogaadityafrn@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Location</span>
+                            <span class="contact-text">Sidoarjo, Indonesia</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://id.linkedin.com/in/yoga-aditya-fernanda-b966912b9" class="social-link">LinkedIn</a>
+                        <a href="https://github.com/yogaadityafrn-pixel" class="social-link">GitHub</a>
+                    </div>
+                </div>
+                <form class="contact-form fade-in delay-300" id="contact-form">
+                    <div class="form-group"><label class="form-label">Name</label><input type="text" name="name" class="form-input" required></div>
+                    <div class="form-group"><label class="form-label">Email</label><input type="email" name="email" class="form-input" required></div>
+                    <div class="form-group"><label class="form-label">Message</label><textarea name="message" class="form-textarea" rows="5" required></textarea></div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container"><p class="footer-text">&copy; 2025 Yoga Aditya. All rights reserved.</p></div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
