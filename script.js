@@ -209,7 +209,7 @@ function initializeHeroCanvas() {
     let h = canvas.height = window.innerHeight;
 
     const particles = [];
-    const colors = ['#007bff', '#4facfe', '#6610f2', '#e83e8c', '#ff5a5f'];
+    const colors = ['#0066ff', '#00d4ff', '#3b9eff', '#ff6b9d', '#00bbff'];
 
     let mouseX = 0;
     let mouseY = 0;
