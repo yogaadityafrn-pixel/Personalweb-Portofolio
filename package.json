@@ -1,0 +1,13 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 3000 --directory .",
+    "dev": "python -m http.server 3000 --directory ."
+  },
+  "keywords": ["portfolio", "personal"],
+  "author": "Yoga Aditya Fernanda",
+  "license": "MIT"
+}
